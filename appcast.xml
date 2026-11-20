@@ -3,6 +3,24 @@
     <channel>
         <title>Regents Cloak</title>
         <item>
+            <title>0.5.3</title>
+            <pubDate>Fri, 20 Nov 2026 11:38:32 -0500</pubDate>
+            <sparkle:version>172</sparkle:version>
+            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Cloak no longer quits by itself shortly after Start.
+
+The chat modes are now called Anon, NEAR Private AI and Local Llama. The small info button beside them says where each one comes from.
+
+Settings ends with Feedback and Help: where to tell us what broke, and words you can hand to your agent so it posts for you.
+
+The Cover, Tor and zkAPI buttons under the message box respond when pressed, and each says what it controls when you rest the pointer on it. Tor and zkAPI can't be changed yet.
+
+This is an early test build for invited testers. Things may break or change from one build to the next.
+]]></description>
+            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.5.3-172/Regents-Cloak-0.5.3-172.dmg" length="129888069" type="application/octet-stream" sparkle:edSignature="sWERnUIDDXhSAqv1unyeL6Zmzy0tBDKys5FIZKoupIARrdaMzk5vOBejLXo/+g7LNXvnhgqlGjHkjEFN4nEBBg=="/>
+        </item>
+        <item>
             <title>0.5.2</title>
             <pubDate>Fri, 20 Nov 2026 02:31:16 -0500</pubDate>
             <sparkle:version>170</sparkle:version>
