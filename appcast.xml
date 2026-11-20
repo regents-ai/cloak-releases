@@ -3,6 +3,24 @@
     <channel>
         <title>Regents Cloak</title>
         <item>
+            <title>0.5.4</title>
+            <pubDate>Fri, 20 Nov 2026 12:50:56 -0500</pubDate>
+            <sparkle:version>179</sparkle:version>
+            <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Things you can click now show it: chat rows, sidebar rows, the small pills and icon buttons light up faintly under the pointer.
+
+The small marks beside a chat's name say what they mean when you rest the pointer on them: an Agent chat, a NEAR Private AI chat or a Local Llama chat.
+
+The Wallet window now shows how the chat in front is paid for: the wallet for Anon and Agent chats, your NEAR key for NEAR Private AI chats, and nothing for Local Llama chats.
+
+A balance that hasn't been read yet shows a dash; rest the pointer on it to see why. The model list shows each price as in | out.
+
+This is an early test build for invited testers. Things may break or change from one build to the next.
+]]></description>
+            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.5.4-179/Regents-Cloak-0.5.4-179.dmg" length="129927492" type="application/octet-stream" sparkle:edSignature="WVS/VqkMXd+AX8s6TmZnS11F7a7xFnQ/EiRI1ANhEmFIglhKe9yHsBV3aXvTcTvCdFzLxBs95TdAWGpIh23XDg=="/>
+        </item>
+        <item>
             <title>0.5.3</title>
             <pubDate>Fri, 20 Nov 2026 11:38:32 -0500</pubDate>
             <sparkle:version>172</sparkle:version>
