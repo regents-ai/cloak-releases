@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Regents Cloak</title>
+        <item>
+            <title>0.5.0</title>
+            <pubDate>Thu, 19 Nov 2026 23:04:16 -0500</pubDate>
+            <sparkle:version>164</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[An early test build of Regents Cloak for invited testers. Things may break or change from one build to the next. When something goes wrong, tell us what happened and what you were doing at the time.
+]]></description>
+            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.5.0-164/Regents-Cloak-0.5.0-164.dmg" length="134141431" type="application/octet-stream" sparkle:edSignature="f0lvOU8PYZGr7HCXfWV5jJaMyKbJ7o1THUatYlL4WZS08MYIQRPmeqQ9O1K6q76FoBmT1jUFCcm5+VJP14LxDQ=="/>
+        </item>
+    </channel>
+</rss>
