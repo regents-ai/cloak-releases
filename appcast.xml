@@ -3,6 +3,18 @@
     <channel>
         <title>Regents Cloak</title>
         <item>
+            <title>0.5.2</title>
+            <pubDate>Fri, 20 Nov 2026 02:31:16 -0500</pubDate>
+            <sparkle:version>170</sparkle:version>
+            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Regents Cloak now has an icon, and the download opens as a window where you drag the app to Applications.
+
+This is an early test build for invited testers. Things may break or change from one build to the next. When something goes wrong, tell us what happened and what you were doing at the time.
+]]></description>
+            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.5.2-170/Regents-Cloak-0.5.2-170.dmg" length="129872708" type="application/octet-stream" sparkle:edSignature="25C3GDncoVUFMCMUx1dR0j00AYWICBld4IjKXKQRKZv8N4/VyaFgcXGp41uQSVLZVDtY2fPjtRLbExI+Gcu9Bg=="/>
+        </item>
+        <item>
             <title>0.5.1</title>
             <pubDate>Fri, 20 Nov 2026 01:40:04 -0500</pubDate>
             <sparkle:version>168</sparkle:version>
