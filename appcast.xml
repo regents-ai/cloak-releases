@@ -3,6 +3,18 @@
     <channel>
         <title>Regents Cloak</title>
         <item>
+            <title>0.5.1</title>
+            <pubDate>Fri, 20 Nov 2026 01:40:04 -0500</pubDate>
+            <sparkle:version>168</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Adds Llama Normal chats: the model on your Mac answers each message itself, with no wallet, Tor or Start needed. Nothing is sent. A new chat's modes are now named Anon V, NEAR Privacy, Llama Normal and Agent.
+
+This is an early test build for invited testers. Things may break or change from one build to the next. When something goes wrong, tell us what happened and what you were doing at the time.
+]]></description>
+            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.5.1-168/Regents-Cloak-0.5.1-168.dmg" length="129785668" type="application/octet-stream" sparkle:edSignature="vbYKxbVla47B2z8qWN17FPDpdDjvL2DcY/RadUxUvxGrY2u65VSOxAdRN9IhUSIUTcyYxbJmOprI0MT6O8ziCg=="/>
+        </item>
+        <item>
             <title>0.5.0</title>
             <pubDate>Thu, 19 Nov 2026 23:04:16 -0500</pubDate>
             <sparkle:version>164</sparkle:version>
