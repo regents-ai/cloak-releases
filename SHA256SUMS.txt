@@ -1,12 +1,12 @@
-# Regents Cloak 0.2.0 (278) — Release Checksums
+# Regents Cloak 0.2.0 (282) — Release Checksums
 # Verify DMG:        shasum -a 256 -c SHA256SUMS.txt --ignore-missing
 # Verify installed:  shasum -a 256 "/Applications/Cloak.app/Contents/MacOS/RegentsCloak"
 # Verify signature:  codesign -dvv --strict "/Applications/Cloak.app"
 # Verify notarized:  spctl --assess --type execute -vv "/Applications/Cloak.app"
 #
 # Apple Developer ID Team: 367G3Z7G3J
-# App Code Directory Hash (CDHash): 4cb692562950116b14ef4a5acf8ea7e0aa8cfb2b
-# Installed App Binary SHA-256: 63d3fc089358dde1df013d8b969a04ae366e97e4217b1d93f83e67907893e7a5  Cloak.app/Contents/MacOS/RegentsCloak
+# App Code Directory Hash (CDHash): b8e53f39d0cd73eb02bad7f167f242cf33df2b23
+# Installed App Binary SHA-256: d3de82e536fce81c3bd3e3dd201a9044d802001b420f16fc2faa1b9c28731564  Cloak.app/Contents/MacOS/RegentsCloak
 
-25af4b52ad5b207cbbb6fe312006de7339921c24db2a523f61ef9c403908d150  Regents-Cloak-0.2.0-278.dmg
-25af4b52ad5b207cbbb6fe312006de7339921c24db2a523f61ef9c403908d150  Regents-Cloak.dmg
+b2893a6e13db9b13a5b99cdbd1747e5090f1f630d11a067fcf2fdd2703df2236  Regents-Cloak-0.2.0-282.dmg
+b2893a6e13db9b13a5b99cdbd1747e5090f1f630d11a067fcf2fdd2703df2236  Regents-Cloak.dmg
