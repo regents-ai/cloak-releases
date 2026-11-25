@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Regents Cloak</title>
+        <title>Cloak</title>
         <item>
             <title>0.2.0</title>
-            <pubDate>Tue, 24 Nov 2026 23:33:37 -0500</pubDate>
-            <sparkle:version>282</sparkle:version>
+            <pubDate>Wed, 25 Nov 2026 00:14:15 -0500</pubDate>
+            <sparkle:version>284</sparkle:version>
             <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text"><![CDATA[Cloak v0.2 (Beta) brings fast local Apple Silicon AI, hardware-verified NEAR AI Gateway enclaves, anonymous token inference & zero-knowledge crypto payments, offline Local Access & data packs, and Apple Silicon inference serving together in one native macOS app with zero telemetry.
@@ -25,102 +25,7 @@ What's new in v0.2:
 
 Share feedback at regents.sh/patchbay/cloak, github.com/regents-ai/cloak/issues, or @regents_sh on X.
 ]]></description>
-            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.2.0-282/Regents-Cloak-0.2.0-282.dmg" length="177117080" type="application/octet-stream" sparkle:edSignature="BFpGhEoLdTJOZ7O4UPDWfj9aAt8HOmuxaFLoJvF8y6+VggaiuVJxTs8GZ3Ge34/8GGUA2qZp2r6hGCOzC7a8DQ=="/>
-        </item>
-        <item>
-            <title>0.2.0</title>
-            <pubDate>Tue, 24 Nov 2026 20:32:32 -0500</pubDate>
-            <sparkle:version>278</sparkle:version>
-            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[Cloak v0.2 (Beta) brings fast local Apple Silicon AI, hardware-verified NEAR AI Gateway enclaves, anonymous token inference & zero-knowledge crypto payments, offline Local Access & data packs, and Apple Silicon inference serving together in one native macOS app with zero telemetry.
-
-Beta & Wallet Security Notice: Cloak v0.2 is beta software and has not yet been independently audited. Keep wallet balances small, back up or withdraw funds before wiping or switching Macs (keys never sync to iCloud), and note the 30-day protocol limit on untouched zkAPI deposits. Read the full Wallet Security & Recovery guide at regents.sh/docs/cloak/wallets.
-
-Note for earlier preview testers: Cloak's public versioning now starts at v0.2.0 Beta (this build supersedes all earlier 0.5.x internal preview builds and preserves your chats and local wallets).
-
-What's new in v0.2:
-- Local (Free, Offline): Pure-Swift MLX worker (vmlx-swift) running Inkling 2 Mini (10.21 GB) at ~56–64 tok/s on 16 GB+ Macs with multi-turn reasoning support, plus upgraded llama.cpp (b12633) with RAM-tiered GGUF models, live streaming, an 8,192-token thinking budget, an opt-in 44 MB Unfiltered LoRA toggle, live model startup & answering indicators, and offline Local Access (Mac snapshot, Hermes-compatible memory, read-only approved folders, drag-and-drop PDF/document/image-OCR/code attachments, and opt-in Calendar/Reminders/Contacts).
-- NEAR AI Gateway: Cryptographic Intel TDX + NVIDIA TEE hardware attestation with a standard NEAR AI Cloud API key, plus top-level Chat, Traces (Letta Trajectory v1 export for Trace Commons), and local Insights tabs.
-- Token Inference: Venice AI (Base USDC via x402) is the default provider with a dedicated Keychain wallet isolated from Boundless (Tempo USDC.e via MPP), live streaming, Private/TEE tier filtering, and a mid-chat Venice/Boundless toggle.
-- zkAPI Anon Inference: Fresh unlinkable one-time keys per prompt via zkAPI over Tor, with local prompt rewriting, live 30-day deposit expiry badges, macOS notifications, and optional auto-withdraw 3 days before expiry.
-- Inference Serving (Darkbloom, macOS 27+): Unified 3-way Serving Mode (Off / Local Only / Network + Local) with multi-model selection ranked by live payout rates, live CLI/daemon-state sync, and real-time monitor telemetry.
-- Connected Apps, Offline Data & Release Verification: Connected Apps (http://127.0.0.1:8742/v1), progressive Offline Data packs (Kiwix, DevDocs, CourtListener, PubMed Central, Tinfoil Kit), and live Release Verification (SHA-256 + CDHash + macOS shasum/codesign/spctl commands in Settings -> Status) alongside SHA256SUMS.txt and checksums.json on GitHub Releases.
-- Onboarding & Reliability: 3-step hardware-aware Welcome Tour (replayable from the menu bar), 1-click Move to Applications prompt, Spotlight/Applications reopen fix, auto-start on Send, instant live Cover Traffic with inspectable local log, pure-Swift LaTeX math rendering, and hardened state machines across Tor, wallets, and local workers.
-
-Share feedback at regents.sh/patchbay/cloak, github.com/regents-ai/cloak/issues, or @regents_sh on X.
-]]></description>
-            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.2.0-278/Regents-Cloak-0.2.0-278.dmg" length="177048473" type="application/octet-stream" sparkle:edSignature="k7gNSfg6O7Ao3h7hdYLSgL3fsf6ybiY2jxSWDerCvcKBHevZu90c8arRKDI5zPVokBbwOf9jarx8d6F6ltBWDw=="/>
-        </item>
-        <item>
-            <title>0.5.4</title>
-            <pubDate>Fri, 20 Nov 2026 12:50:56 -0500</pubDate>
-            <sparkle:version>179</sparkle:version>
-            <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[Things you can click now show it: chat rows, sidebar rows, the small pills and icon buttons light up faintly under the pointer.
-
-The small marks beside a chat's name say what they mean when you rest the pointer on them: an Agent chat, a NEAR Private AI chat or a Local Llama chat.
-
-The Wallet window now shows how the chat in front is paid for: the wallet for Anon and Agent chats, your NEAR key for NEAR Private AI chats, and nothing for Local Llama chats.
-
-A balance that hasn't been read yet shows a dash; rest the pointer on it to see why. The model list shows each price as in | out.
-
-This is an early test build for invited testers. Things may break or change from one build to the next.
-]]></description>
-            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.5.4-179/Regents-Cloak-0.5.4-179.dmg" length="129927492" type="application/octet-stream" sparkle:edSignature="WVS/VqkMXd+AX8s6TmZnS11F7a7xFnQ/EiRI1ANhEmFIglhKe9yHsBV3aXvTcTvCdFzLxBs95TdAWGpIh23XDg=="/>
-        </item>
-        <item>
-            <title>0.5.3</title>
-            <pubDate>Fri, 20 Nov 2026 11:38:32 -0500</pubDate>
-            <sparkle:version>172</sparkle:version>
-            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[Cloak no longer quits by itself shortly after Start.
-
-The chat modes are now called Anon, NEAR Private AI and Local Llama. The small info button beside them says where each one comes from.
-
-Settings ends with Feedback and Help: where to tell us what broke, and words you can hand to your agent so it posts for you.
-
-The Cover, Tor and zkAPI buttons under the message box respond when pressed, and each says what it controls when you rest the pointer on it. Tor and zkAPI can't be changed yet.
-
-This is an early test build for invited testers. Things may break or change from one build to the next.
-]]></description>
-            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.5.3-172/Regents-Cloak-0.5.3-172.dmg" length="129888069" type="application/octet-stream" sparkle:edSignature="sWERnUIDDXhSAqv1unyeL6Zmzy0tBDKys5FIZKoupIARrdaMzk5vOBejLXo/+g7LNXvnhgqlGjHkjEFN4nEBBg=="/>
-        </item>
-        <item>
-            <title>0.5.2</title>
-            <pubDate>Fri, 20 Nov 2026 02:31:16 -0500</pubDate>
-            <sparkle:version>170</sparkle:version>
-            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[Regents Cloak now has an icon, and the download opens as a window where you drag the app to Applications.
-
-This is an early test build for invited testers. Things may break or change from one build to the next. When something goes wrong, tell us what happened and what you were doing at the time.
-]]></description>
-            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.5.2-170/Regents-Cloak-0.5.2-170.dmg" length="129872708" type="application/octet-stream" sparkle:edSignature="25C3GDncoVUFMCMUx1dR0j00AYWICBld4IjKXKQRKZv8N4/VyaFgcXGp41uQSVLZVDtY2fPjtRLbExI+Gcu9Bg=="/>
-        </item>
-        <item>
-            <title>0.5.1</title>
-            <pubDate>Fri, 20 Nov 2026 01:40:04 -0500</pubDate>
-            <sparkle:version>168</sparkle:version>
-            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[Adds Llama Normal chats: the model on your Mac answers each message itself, with no wallet, Tor or Start needed. Nothing is sent. A new chat's modes are now named Anon V, NEAR Privacy, Llama Normal and Agent.
-
-This is an early test build for invited testers. Things may break or change from one build to the next. When something goes wrong, tell us what happened and what you were doing at the time.
-]]></description>
-            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.5.1-168/Regents-Cloak-0.5.1-168.dmg" length="129785668" type="application/octet-stream" sparkle:edSignature="vbYKxbVla47B2z8qWN17FPDpdDjvL2DcY/RadUxUvxGrY2u65VSOxAdRN9IhUSIUTcyYxbJmOprI0MT6O8ziCg=="/>
-        </item>
-        <item>
-            <title>0.5.0</title>
-            <pubDate>Thu, 19 Nov 2026 23:04:16 -0500</pubDate>
-            <sparkle:version>164</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[An early test build of Regents Cloak for invited testers. Things may break or change from one build to the next. When something goes wrong, tell us what happened and what you were doing at the time.
-]]></description>
-            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.5.0-164/Regents-Cloak-0.5.0-164.dmg" length="134141431" type="application/octet-stream" sparkle:edSignature="f0lvOU8PYZGr7HCXfWV5jJaMyKbJ7o1THUatYlL4WZS08MYIQRPmeqQ9O1K6q76FoBmT1jUFCcm5+VJP14LxDQ=="/>
+            <enclosure url="https://github.com/regents-ai/cloak/releases/download/0.2.0-284/Regents-Cloak-0.2.0-284.dmg" length="177116057" type="application/octet-stream" sparkle:edSignature="WoUtDCGmwUdCEJ/2WmJla6RdmYsEntgf2iDEBk1JJmzHUfV+lTIR1daasnt5l9KdeK+xElVYQhmWksq3DBV5Aw=="/>
         </item>
     </channel>
 </rss>
