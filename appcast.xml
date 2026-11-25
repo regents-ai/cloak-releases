@@ -3,6 +3,31 @@
     <channel>
         <title>Regents Cloak</title>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Tue, 24 Nov 2026 20:32:32 -0500</pubDate>
+            <sparkle:version>278</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Cloak v0.2 (Beta) brings fast local Apple Silicon AI, hardware-verified NEAR AI Gateway enclaves, anonymous token inference & zero-knowledge crypto payments, offline Local Access & data packs, and Apple Silicon inference serving together in one native macOS app with zero telemetry.
+
+Beta & Wallet Security Notice: Cloak v0.2 is beta software and has not yet been independently audited. Keep wallet balances small, back up or withdraw funds before wiping or switching Macs (keys never sync to iCloud), and note the 30-day protocol limit on untouched zkAPI deposits. Read the full Wallet Security & Recovery guide at regents.sh/docs/cloak/wallets.
+
+Note for earlier preview testers: Cloak's public versioning now starts at v0.2.0 Beta (this build supersedes all earlier 0.5.x internal preview builds and preserves your chats and local wallets).
+
+What's new in v0.2:
+- Local (Free, Offline): Pure-Swift MLX worker (vmlx-swift) running Inkling 2 Mini (10.21 GB) at ~56–64 tok/s on 16 GB+ Macs with multi-turn reasoning support, plus upgraded llama.cpp (b12633) with RAM-tiered GGUF models, live streaming, an 8,192-token thinking budget, an opt-in 44 MB Unfiltered LoRA toggle, live model startup & answering indicators, and offline Local Access (Mac snapshot, Hermes-compatible memory, read-only approved folders, drag-and-drop PDF/document/image-OCR/code attachments, and opt-in Calendar/Reminders/Contacts).
+- NEAR AI Gateway: Cryptographic Intel TDX + NVIDIA TEE hardware attestation with a standard NEAR AI Cloud API key, plus top-level Chat, Traces (Letta Trajectory v1 export for Trace Commons), and local Insights tabs.
+- Token Inference: Venice AI (Base USDC via x402) is the default provider with a dedicated Keychain wallet isolated from Boundless (Tempo USDC.e via MPP), live streaming, Private/TEE tier filtering, and a mid-chat Venice/Boundless toggle.
+- zkAPI Anon Inference: Fresh unlinkable one-time keys per prompt via zkAPI over Tor, with local prompt rewriting, live 30-day deposit expiry badges, macOS notifications, and optional auto-withdraw 3 days before expiry.
+- Inference Serving (Darkbloom, macOS 27+): Unified 3-way Serving Mode (Off / Local Only / Network + Local) with multi-model selection ranked by live payout rates, live CLI/daemon-state sync, and real-time monitor telemetry.
+- Connected Apps, Offline Data & Release Verification: Connected Apps (http://127.0.0.1:8742/v1), progressive Offline Data packs (Kiwix, DevDocs, CourtListener, PubMed Central, Tinfoil Kit), and live Release Verification (SHA-256 + CDHash + macOS shasum/codesign/spctl commands in Settings -> Status) alongside SHA256SUMS.txt and checksums.json on GitHub Releases.
+- Onboarding & Reliability: 3-step hardware-aware Welcome Tour (replayable from the menu bar), 1-click Move to Applications prompt, Spotlight/Applications reopen fix, auto-start on Send, instant live Cover Traffic with inspectable local log, pure-Swift LaTeX math rendering, and hardened state machines across Tor, wallets, and local workers.
+
+Share feedback at regents.sh/patchbay/cloak, github.com/regents-ai/cloak/issues, or @regents_sh on X.
+]]></description>
+            <enclosure url="https://github.com/regents-ai/cloak-releases/releases/download/0.2.0-278/Regents-Cloak-0.2.0-278.dmg" length="177048473" type="application/octet-stream" sparkle:edSignature="k7gNSfg6O7Ao3h7hdYLSgL3fsf6ybiY2jxSWDerCvcKBHevZu90c8arRKDI5zPVokBbwOf9jarx8d6F6ltBWDw=="/>
+        </item>
+        <item>
             <title>0.5.4</title>
             <pubDate>Fri, 20 Nov 2026 12:50:56 -0500</pubDate>
             <sparkle:version>179</sparkle:version>
